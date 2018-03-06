@@ -64,9 +64,9 @@ El 50% del espacio va a estar vacio. El 30% van a ser presas, y el 20%Predadores
                 if categ<=3:
                     self.territorio[i,j]="Presa"
                 elif categ>5:
-                    self.territorio[i,j]="Predador"
-                else:
                     self.territorio[i,j]=0
+                else:
+                    self.territorio[i,j]="Predador"
         
         
         
